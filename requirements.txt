@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+tortoise-orm
+psycopg2-binary
+passlib[bcrypt]
+pyjwt
+aerich
+pydantic-settings
+asyncpg
+python-jose
+httpx
