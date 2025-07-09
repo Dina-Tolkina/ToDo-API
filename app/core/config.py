@@ -8,9 +8,9 @@ load_dotenv()
 class Settings(BaseSettings):
     DATABASE_URL: str
     SECRET_KEY: str
-    POSTGRES_USER: str  # Добавлено
-    POSTGRES_PASSWORD: str  # Добавлено
-    POSTGRES_DB: str  # Добавлено
+    POSTGRES_USER: str  
+    POSTGRES_PASSWORD: str  
+    POSTGRES_DB: str 
     MODELS: list = ["models", "aerich.models"]
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
